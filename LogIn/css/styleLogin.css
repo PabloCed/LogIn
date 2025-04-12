@@ -1,0 +1,95 @@
+/*Style LogIn*/
+body {
+    margin: 0;
+    font-family:'Poppins','Trebuchet MS', Arial, sans-serif;
+    height: 100vh;
+    background-image: url('../Img/LoginBack.jpg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.1); 
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h1 {
+    color: #faf6f6;
+    font-size: 30px; 
+    margin: 0 0 20px 0; 
+    padding-top: 0; 
+    text-align: center; 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    color: #f7efef;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+button {
+    font-family:'Poppins','Trebuchet MS', Arial, sans-serif;
+    width: 100%;
+    padding: 12px;
+    background-color: #af00a4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color:  #5d0457;
+}
+
+p {
+    color: aliceblue;
+    margin-top: 20px;
+}
+
+a {
+    color: #3cc8f3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
